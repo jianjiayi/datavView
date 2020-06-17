@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!--
  * @Descripttion: 
  * @version: 
@@ -24,3 +25,7 @@
 ```
 "umi": "^2.7.7",
 ```
+=======
+# umi-base-product
+基于umi2.0搭建的react架构，支持dva&amp;antd，支持路由校验和配置，支持多环境打包
+>>>>>>> 11b7dab0b298e3b16c74a2785fd3fa290e807c66
