@@ -3,12 +3,13 @@
  * @version: 
  * @Author: big bug
  * @Date: 2020-06-01 09:41:13
- * @LastEditTime: 2020-06-10 09:41:49
+ * @LastEditTime: 2020-06-17 10:41:58
  */ 
 
 // ref: https://umijs.org/config/
 import { resolve } from 'path';
 import { routesConfig } from '../src/router/index';
+// console.log(routesConfig)
 
 export default {
   treeShaking: true, // 去除那些引用的但却没有使用的代码

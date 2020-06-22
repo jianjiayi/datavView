@@ -3,14 +3,14 @@
  * @version: 
  * @Author: big bug
  * @Date: 2020-06-11 13:51:14
- * @LastEditTime: 2020-06-16 17:33:59
+ * @LastEditTime: 2020-06-17 13:47:06
  */
 import React, { useState, useEffect } from 'react';
 import debounce from 'lodash.debounce';
 import styles from './index.less';
 
 function ScalePage(props) {
-  const {width=1440, height=810} = props;
+  const {width=1920, height=1080} = props;
   
   const getScale=() => {
     let ww = window.innerWidth/width
@@ -33,7 +33,7 @@ function ScalePage(props) {
     return () => {
        window.removeEventListener('resize', setScaleFun)
     }
-  },[])
+  },[setScaleFun])
 
 
   return (

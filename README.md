@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!--
  * @Descripttion: 
  * @version: 
@@ -26,3 +27,7 @@
 ```
 # umi-base-product
 基于umi2.0搭建的react架构，支持dva&amp;antd，支持路由校验和配置，支持多环境打包
+=======
+# datavView
+大数据可视化项目
+>>>>>>> 6bf35221dbc456344f5bd1e2f8b50a42a7a0486d
