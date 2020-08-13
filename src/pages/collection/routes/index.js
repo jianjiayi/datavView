@@ -3,11 +3,13 @@
  * @version: 
  * @Author: big bug
  * @Date: 2020-06-17 09:57:27
- * @LastEditTime: 2020-06-17 10:29:23
+ * @LastEditTime: 2020-08-13 10:59:19
  */ 
 import React from 'react';
 import { connect } from 'dva';
 import { Button } from 'antd';
+
+import DemoCharts from '@components/Charts/demo.js';
 
 import styles from './index.less';
 
@@ -23,8 +25,7 @@ function Login({dispatch}) {
 
   return (
     <div>
-      <Button onClick={()=>loginsubmit()}>hahaha </Button>
-      login
+      <DemoCharts></DemoCharts>
     </div>
   )
 }
